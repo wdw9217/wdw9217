@@ -1,0 +1,52 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+a {
+  color: #ffffff;
+}
+
+.banner {
+  background-image: url("/homepage/img/pizza3.jpg");
+  background-size: cover;
+  width: auto;
+  height: 300px;
+  text-align: center;
+  font-size: 50px;
+  color: red;
+  padding-top: 75px;
+}
+
+.header {
+  height: 60px;
+  padding-top: 20px;
+  background-color: darkblue;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.side {
+  float: right;
+  border: 1px solid red;
+  margin: 40px;
+  padding: 20px;
+  font-size: 16px;
+  color: black;
+}
+
+.contents {
+  min-height: 600px;
+  padding: 50px;
+  background-color: white;
+  font-size: 18px;
+  color: #333333;
+}
+
+.footer {
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}

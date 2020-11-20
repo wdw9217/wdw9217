@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .outter {
+        width: 500px;
+        height: 500px;
+        background-color: yellow;
+      }
+
+      .middle {
+        width: 50%;
+        height: 50%;
+        margin: auto;
+        background-color: ivory;
+        transform: translateY(50%);
+      }
+
+      button {
+        position: relative;
+        top: 50%;
+        left: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outter">
+      <div class="middle">
+        <button>Click Me!</button>
+      </div>
+    </div>
+    <script>
+      const outter = document.querySelector(".outter");
+      const middle = document.querySelector(".middle");
+      const button = document.querySelector("button");
+
+      console.log(outter);
+      console.log(middle);
+      console.log(button);
+
+      outter.addEventListener("click", () => {
+        if (event.target !== event.currentTarget) {
+          return;
+        }
+        console.log("난 아웃사이더");
+        console.log(`outter: ${event.currentTarget}, ${event.target}`);
+      });
+      middle.addEventListener("click", () => {
+        if (event.target !== event.currentTarget) {
+          return;
+        }
+        console.log("난 중간");
+        console.log(`middle: ${event.currentTarget}, ${event.target}`);
+      });
+      button.addEventListener("click", () => {
+        //   event.stopPropagation();
+        //  event.stopImmediatePropagation();
+        console.log("난 버튼1");
+        console.log(`button: ${event.currentTarget}, ${event.target}`);
+      });
+      /*
+      button.addEventListener("click", () => {
+
+        console.log("난 버튼2");
+      });
+      */
+    </script>
+  </body>
+</html>

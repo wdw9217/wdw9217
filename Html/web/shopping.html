@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/shopping.css">
+    <script src="js/shopping.js" defer></script>
+    <title>Event Handler</title>
+</head>
+<body>
+    <body onload="alert('안녕하세요? 농산물 도매시장에 오신걸 환영합니다')" onunload="alert('안녕히가세요~')"></body>
+    <div id="wrap">
+        <div id="header">
+            <div class="title">🥕 🍉 🍌 🍓<b> ┌양정 농산물 도매시장┘</b> 🍍 🍅 🍋 🍒</div>
+        </div>
+        <div id="content">
+                <ul class="items">
+                    <input type='date' min='2000-01-01' max='2020-12-31'>
+                    <input type='time' value="HH:MM:SS"> 
+                    <br/> 
+                    <br/> 
+                    🛒 <u> <b>농산물 재고 목록</u> </b> 🛒<br/> 
+                 --------------------------------------------------------------
+                    <br/> 
+                    <input type="checkbox" name="Kinds" value="사과">🍎사과
+                    <input type="checkbox" name="Kinds" value="오렌지">🍊오렌지
+                    <input type="checkbox" name="Kinds" value="파인애플">🍍파인애플
+                <br/>
+                    <input type="checkbox" name="Kinds" value="당근">🥕당근
+                    <input type="checkbox" name="Kinds" value="가지">🍆가지
+                    <input type="checkbox" name="Kinds" value="토마토">🍅토마토
+                <br/>
+                    <input type="checkbox" name="Kinds" value="앵두">🍒앵두
+                    <input type="checkbox" name="Kinds" value="수박">🍉수박
+                    <input type="checkbox" name="Kinds" value="바나나">🍌바나나
+                 <br/> 
+                 --------------------------------------------------------------  
+                    <li class="item_row">
+                        <div class="item">                            
+                        </div>
+            📌<a href="https://www.mafra.go.kr/sites/mafra/index.do">대한민국 농림축산부 홈페이지 링크 </a>📌
+                        <img src="\Image/apple.jpg" alt="" />
+                        <textarea cols="넓이" rows="길이" name="name"> ✏메모하세요📄 </textarea>
+                    </li>
+                </ul> 
+                
+                
+            <div class="main">
+                <input type="text" class="main_input">
+            </div>
+        </div>
+        <div id="footer">
+            <button class="footer_button"><i class="fab fa-apple"></i></button>
+            <BR> 
+            <div class="title">👆 <b>┌양정 농산물 회원┘</b> 👆</div>
+            <b>로그인 ID</b> 🔐<input type="text" name="userID" value="yj123" maxlength="5">
+            <b>암호</b> <input type="password" name="password" size="8">
+            <button class="abc">🔑<b>로그인</b></button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  background-color: silver;
+  text-align: center;
+}
+#wrap {
+  width: 630px;
+  margin: 0 auto;
+}
+
+#header {
+  width: 630px;
+  font-size: 24px;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(7, 119, 247) 0%,
+    rgba(188, 181, 219, 1) 58%,
+    rgb(220, 18, 247) 100%
+  );
+  border-top: 1px solid silver;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#content {
+  height: 100%;
+  background-color: white;
+}
+
+.items {
+  height: 740px;
+  overflow: auto;
+  font-size: 15px;
+  color: seagreen;
+}
+
+.date {
+  background-color: skyblue;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 24px;
+  line-height: 70px;
+}
+
+.item_delete {
+  font-size: 28px;
+  transition: all 300ms ease-in;
+}
+
+.item_delete:hover {
+  color: rgb(238, 204, 12);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.item_divider {
+  width: 90%;
+  height: 1px;
+  background-color: gray;
+  margin: 0 auto;
+}
+
+.main_input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    rgb(241, 179, 206) 0%,
+    rgb(190, 178, 243) 58%,
+    rgb(117, 174, 238) 100%
+  );
+  font-size: 12px;
+}
+
+#footer {
+  background: linear-gradient(
+    90deg,
+    rgb(233, 18, 111) 0%,
+    rgba(188, 181, 219, 1) 58%,
+    rgba(7, 119, 247, 1) 100%
+  );
+  border-bottom: 1px solid silver;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-size: 12px;
+  color: white;
+}
+
+.footer_button {
+  width: 48px;
+  height: 48px;
+  font-size: 25px;
+  color: rgb(152, 8, 248);
+  background-color: rgb(8, 241, 191);
+  border-radius: 50%;
+  transition: all 600ms ease-in;
+}
+
+.footer_button:hover {
+  transform: scale(1.2);
+  color: yellow;
+  cursor: pointer;
+}
+
+.abc {
+  outline-color: red;
+  background-color: rgb(152, 8, 248);
+}

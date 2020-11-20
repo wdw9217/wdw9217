@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div{
+            width: 250px;
+            height: 250px;
+            background-color: teal;
+            margin-bottom: 5px;
+        }
+    </style>
+   <div><input type="check" /></div>
+   <div></div>
+   <div></div>
+   <div></div>
+   <div></div>
+   <div></div>
+   <div></div>
+   <div></div>
+   <div></div>
+   <div></div>
+   <div></div>
+   <div></div>
+   <script>
+       
+       document.addEventListener("wheel", () =>{
+           console.log("스크롤");
+           event.preventDefault();
+           {once:true}
+           
+       });
+       const input = document.querySelector("input");
+
+       input.addEventListener("click", (event) => {
+           console.log(event);
+           event.preventDefault();
+       });
+   </script>
+</body>
+</html>

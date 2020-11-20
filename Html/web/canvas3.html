@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas" style="background-color: aliceblue" width= "500" height="350"></canvas>
+    <script>
+        let canvas = document.getElementById("myCanvas");
+        let context = canvas.getContext("2d");
+        
+        context.beginPath();
+        context.arc(90,60, 20, Math.PI, 1.5*Math.PI, false);
+        context.stroke();
+        context.beginPath();
+        context.arc(150,60, 20, 0.5*Math.PI, 1.3*Math.PI, false);
+        context.stroke();
+        context.beginPath();
+        context.arc(210,60, 20, 0.5*Math.PI, 1.7*Math.PI, false);
+        context.stroke();
+        context.beginPath();
+        context.arc(280,60, 20, 0.5*Math.PI, 3*Math.PI, false);
+        context.stroke();
+
+        context.beginPath();
+       context.moveTo(90, 120);
+       context.lineTo(90,180);
+       context.moveTo(90,120);
+       
+        context.stroke();
+
+
+
+
+
+
+    </script>
+
+    
+</body>
+</html>

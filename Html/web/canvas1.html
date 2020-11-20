@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas" style="background-color: tomato;"width="250"height="150"></canvas>
+    <script>
+        let canvas = document.getElementById('myCanvas');
+        let ctx =  canvas.getContext("2d");
+
+        ctx.beginPath();
+        ctx.strokeStyle = "blue";
+        ctx.rect(30, 30, 50 , 50);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.fileStyle = "violet";
+        ctx.rect(60,60,50,50);
+        ctx.fill();
+
+        ctx.font = "20px Gothic";
+        ctx.fileStyle = "green;";
+        ctx.fillText("Text in Canvas", 100,50);
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="event">Event Listener</div>
+    <script>
+        const event = document.querySelector(".event");
+        const listener =
+            ("click",
+                () => {
+                    console.log("클릭 됨!_1");
+                });
+        console.log(listener);
+        event.addEventListener("click", listener);
+        event.addEventListener("click", () => {
+            console.log("클릭 됨!_2");
+        });
+        event.removeEventListener("click", listener);
+    </script>
+</body>
+
+</html>

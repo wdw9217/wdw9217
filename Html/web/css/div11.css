@@ -1,0 +1,17 @@
+body{
+        background-color: brown;
+}
+
+div{
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    left: 100px;
+    top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}

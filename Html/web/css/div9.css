@@ -1,0 +1,34 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: orange;
+}
+
+.container{
+    background: skyblue;
+    left: 100px;
+    top: 100px;
+    position: relative;
+}
+
+.box1{
+    background: violet;
+    left: 100px;
+    top: 100px;
+    position: fixed;
+}
+
+.box2{
+    background: red;
+    left: 100px;
+    top: 100px;
+    position: relative;
+}
+
+.box3{
+    background: greenyellow;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+}

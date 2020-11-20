@@ -1,0 +1,33 @@
+html {
+  width: 1920px;
+}
+body {
+  background-color: brown;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  background-color: orangered;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+#article1 {
+  display: block;
+}
+
+#article2 {
+  display: flex;
+}
+
+aside {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.box4 {
+  background-color: teal;
+}

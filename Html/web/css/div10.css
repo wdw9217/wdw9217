@@ -1,0 +1,37 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    background: orange;
+}
+.container{
+    left: 100px;
+    top: 100px;
+    position: relative;
+}
+
+.inline{
+background: orangered;
+display: inline-block;
+}
+
+.inline1{
+    background: purple;
+    left: 1x;
+    top: 1px;
+    position: fixed;
+}
+.block1{
+    background: palegreen;
+    left: 200px;
+    top: 200px;
+    position: absolute;
+}   
+.block2{
+    
+    left: 0px;
+    top: 0px;
+    background: blueviolet
+    position: sticky;
+}

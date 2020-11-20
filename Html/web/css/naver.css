@@ -1,0 +1,124 @@
+@charset 'utf-8'
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+li, ul{
+    text-decoration: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#wrap{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    height: 100px;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_left{
+    padding-left: 30px;
+}
+.nav_left a i{
+    font-size: 30px;
+    color: rgb(53,62,70);
+}
+.nav_right ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.nav_right ul li{
+    padding-left: 10px;
+}
+#content{
+    width: 100%;
+    margin : 20px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.main_logo a img{
+    height: 40px
+}
+.main_search{
+    width: 550px;
+    height: 50px;
+    border: 1px solid rgb(11,222,139);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-top: 50px;
+}
+input{
+    font-size: 16px;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    background-color: white;
+    color: white;
+}
+input::placeholder{
+    color: rgb(233,233,233);
+}
+.btns{
+   text-align: center; 
+}
+button{
+    border: 0;
+    outline: none;
+    background-color: white;
+    color: rgb(11,222,139);
+    font-size: 18px;
+}
+.main_nav{
+    display: block;
+}
+.main_nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    padding: 0; 
+}
+#footer{
+    background: linear-gradient( to bottom, white, rgb(235,242,248));
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.adv a img{
+    height: 90px;
+}
+.dokdo{
+    width: 570px;
+    height: 90px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.dokdo img{
+    vertical-align: middle;
+}
+.weather{
+    width: 570px;
+    height: 90px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;   
+}
