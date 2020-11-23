@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+
+  padding: 0;
+}
+
+html {
+  width: 100%;
+
+  height: 100%;
+}
+
+body {
+  background-color: #f5f4f6;
+
+  box-sizing: border-box;
+
+  width: 100%;
+
+  height: 100%;
+
+  outline: none;
+
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  border-radius: 10px;
+
+  border: 1px solid black;
+
+  background-color: #eae9ea;
+}
+
+img {
+  width: 100%;
+
+  height: 100%;
+}
+
+.aside {
+  width: 35%;
+
+  height: 32%;
+
+  padding: 1em 0 0 1em;
+
+  visibility: hidden;
+}
+
+.aside_menu {
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.aside_menu li {
+  width: 30%;
+
+  height: 45%;
+}
+
+.aside_menu .aside2 {
+  width: 63%;
+}
+
+.bside {
+  width: 35%;
+
+  height: 30%;
+
+  padding: 0 0 0 1em;
+
+  visibility: hidden;
+}
+
+.bside .bside_menu {
+  width: 95%;
+
+  height: 100%;
+}
+
+.bside_menu .bside1 {
+  width: 100%;
+
+  height: 100%;
+
+  background: url(/photo/img/mac1.png) no-repeat center center/cover;
+}
+
+.cside {
+  width: 35%;
+
+  height: 32%;
+
+  padding: 0.5em 0.5em 1em 1em;
+
+  visibility: hidden;
+}
+
+.cside_menu {
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.cside_menu li {
+  width: 47%;
+
+  height: 40%;
+}
+
+.cside_menu .cside3 {
+  width: 60%;
+
+  height: 50%;
+
+  background: url(/photo/img/sega.jpg) no-repeat center center/cover;
+}
+
+.cside_menu .cside4 {
+  width: 34%;
+
+  height: 50%;
+
+  background: url(/photo/img/superfamicom.jpg) no-repeat center center/cover;
+}
+
+.head {
+  width: 30%;
+
+  height: 20%;
+
+  padding: 1em 0 0 2em;
+
+  visibility: hidden;
+}
+
+.head .head_menu {
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.head_menu li {
+  width: 45%;
+
+  height: 100%;
+}
+
+.center {
+  width: 30%;
+
+  height: 40%;
+
+  padding: 1em 0 0 2.3em;
+
+  visibility: hidden;
+}
+
+.center_menu {
+  width: 100%;
+
+  height: 100%;
+}
+
+.center_menu li {
+  width: 94%;
+
+  height: 100%;
+}
+
+.footer {
+  width: 30%;
+
+  height: 30%;
+
+  padding: 1em 0 0 2em;
+
+  visibility: hidden;
+}
+
+.footer_menu {
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.footer_menu li {
+  width: 46%;
+
+  height: 100%;
+
+  background: url(/photo/img/playstation.png) no-repeat center center/cover;
+}
+
+.dside {
+  width: 32%;
+
+  height: 35%;
+
+  padding: 1em 0 0 0;
+
+  visibility: hidden;
+}
+
+.dside_menu {
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.dside_menu .dside1,
+.dside_menu .dside3 {
+  width: 60%;
+
+  height: 47%;
+
+  background: url(/photo/img/playstation.png) no-repeat center center/cover;
+}
+
+.dside_menu .dside2,
+.dside_menu .dside4 {
+  width: 34%;
+
+  height: 47%;
+
+  background: url(/photo/img/playstation.png) no-repeat center center/cover;
+}
+
+.eside {
+  width: 32%;
+
+  height: 35%;
+
+  padding: 1em 0 0 0;
+
+  visibility: hidden;
+}
+
+.eside_menu {
+  width: 100%;
+
+  height: 100%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.eside_menu .eside1 {
+  width: 70%;
+
+  height: 80%;
+
+  background: url(/photo/img/famicom.jpg) no-repeat center center/cover;
+}
