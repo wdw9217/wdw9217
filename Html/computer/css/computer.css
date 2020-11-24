@@ -8,20 +8,24 @@
   box-sizing: border-box;
   transition: all 0.5s ease-in-out;
 }
+
 body {
   background: #e7e7e7;
   font-family: Verdana;
 }
+
 /*메인내용 글꼴 크기 사이즈 수정*/
 li {
   font-size: 14px;
   list-style: none;
   padding: 0px;
 }
+
 ul {
   margin: 0;
   padding: 0;
 }
+
 .attention {
   display: table-cell;
   font-size: 30px;
@@ -31,6 +35,7 @@ ul {
   vertical-align: middle;
   width: 100vw;
 }
+
 .menu {
   background: #1d1d1d;
   color: #fff;
@@ -44,12 +49,14 @@ ul {
   width: 100%;
   z-index: 11;
 }
+
 .menu-button {
   cursor: pointer;
   font-size: 36px;
   position: absolute;
   top: 0;
 }
+
 .menu-open {
   max-width: 150px;
 }
@@ -58,6 +65,7 @@ ul {
 body {
   margin: 0;
 }
+
 #container {
   position: relative;
   transform: translate(210%);
@@ -65,10 +73,12 @@ body {
   height: 150px;
   margin: 5%;
 }
+
 #container div {
   box-sizing: border-box;
   border: 5px solid white;
 }
+
 div#container:after {
   content: "Microsoft";
   display: inline-block;
@@ -77,6 +87,7 @@ div#container:after {
   margin-left: 230px;
   color: #737373;
 }
+
 #b {
   position: absolute;
   background: #7fba00;
@@ -88,6 +99,7 @@ div#container:after {
   animation-timing-function: easy;
   animation-iteration-count: 1;
 }
+
 #c {
   position: absolute;
   background: #ffb901;
@@ -100,6 +112,7 @@ div#container:after {
   animation-timing-function: easy;
   animation-iteration-count: 1;
 }
+
 #a {
   position: absolute;
   background: #01a4ef;
@@ -127,75 +140,94 @@ div#container:after {
   0% {
     opacity: 0;
   }
+
   25% {
     background: #7fba00;
     left: 100px;
     top: 0px;
     opacity: 100;
   }
+
   50% {
     background: #ffb901;
     left: 100px;
     top: 100px;
   }
+
   75% {
     background: #01a4ef;
     left: 0px;
     top: 100px;
   }
+
   100% {
     background: #f25022;
     left: 0px;
     top: 0px;
   }
 }
+
 @keyframes a {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 100;
   }
+
   75% {
     opacity: 100;
   }
+
   100% {
     opacity: 100;
   }
 }
+
 @keyframes b {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 0;
   }
+
   75% {
     opacity: 100;
   }
+
   100% {
     opacity: 100;
   }
 }
+
 @keyframes c {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 0;
   }
+
   75% {
     opacity: 0;
   }
+
   100% {
     opacity: 100;
   }
@@ -205,75 +237,94 @@ div#container:after {
   0% {
     opacity: 0;
   }
+
   25% {
     background: #7fba00;
     left: 100px;
     top: 0px;
     opacity: 100;
   }
+
   50% {
     background: #ffb901;
     left: 100px;
     top: 100px;
   }
+
   75% {
     background: #01a4ef;
     left: 0px;
     top: 100px;
   }
+
   100% {
     background: #f25022;
     left: 0px;
     top: 0px;
   }
 }
+
 @-webkit-keyframes a {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 100;
   }
+
   75% {
     opacity: 100;
   }
+
   100% {
     opacity: 100;
   }
 }
+
 @-webkit-keyframes b {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 0;
   }
+
   75% {
     opacity: 100;
   }
+
   100% {
     opacity: 100;
   }
 }
+
 @-webkit-keyframes c {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 0;
   }
+
   75% {
     opacity: 0;
   }
+
   100% {
     opacity: 100;
   }
@@ -283,75 +334,94 @@ div#container:after {
   0% {
     opacity: 0;
   }
+
   25% {
     background: #7fba00;
     left: 100px;
     top: 0px;
     opacity: 100;
   }
+
   50% {
     background: #ffb901;
     left: 100px;
     top: 100px;
   }
+
   75% {
     background: #01a4ef;
     left: 0px;
     top: 100px;
   }
+
   100% {
     background: #f25022;
     left: 0px;
     top: 0px;
   }
 }
+
 @-moz-keyframes a {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 100;
   }
+
   75% {
     opacity: 100;
   }
+
   100% {
     opacity: 100;
   }
 }
+
 @-moz-keyframes b {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 0;
   }
+
   75% {
     opacity: 100;
   }
+
   100% {
     opacity: 100;
   }
 }
+
 @-moz-keyframes c {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 0;
   }
+
   75% {
     opacity: 0;
   }
+
   100% {
     opacity: 100;
   }
@@ -361,75 +431,94 @@ div#container:after {
   0% {
     opacity: 0;
   }
+
   25% {
     background: #7fba00;
     left: 100px;
     top: 0px;
     opacity: 100;
   }
+
   50% {
     background: #ffb901;
     left: 100px;
     top: 100px;
   }
+
   75% {
     background: #01a4ef;
     left: 0px;
     top: 100px;
   }
+
   100% {
     background: #f25022;
     left: 0px;
     top: 0px;
   }
 }
+
 @-o-keyframes a {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 100;
   }
+
   75% {
     opacity: 100;
   }
+
   100% {
     opacity: 100;
   }
 }
+
 @-o-keyframes b {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 0;
   }
+
   75% {
     opacity: 100;
   }
+
   100% {
     opacity: 100;
   }
 }
+
 @-o-keyframes c {
   0% {
     opacity: 0;
   }
+
   25% {
     opacity: 0;
   }
+
   50% {
     opacity: 0;
   }
+
   75% {
     opacity: 0;
   }
+
   100% {
     opacity: 100;
   }
